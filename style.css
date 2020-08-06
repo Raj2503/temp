@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body , html {
+ height:100%;
+ margin:0;
+ font-size:16px;
+ font-family: 'Poppins', sans-serif;
+ font-weight:400;
+ line-height:1.8em;
+ color:#666;
+ background-color: #282e34;
+}
+.img1,.img2,.img3,.img4{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.img1{
+    background-image: url('raj8.jpg');
+    min-height: 500px;
+}
+
+.img2{
+    background-image: url('Savasil_.jpg');
+    min-height: 500px;
+}
+
+.img3{
+    background-image: url('vedant3.jpeg');
+    min-height: 500px;
+}
+.img4{
+    background-image: url('prateek1.jpg');
+    min-height: 500px;
+}
+div,h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 20px 80px;
+    letter-spacing: 0.2vw;
+}
+
+.dark{
+    background-color:#282e34 ;
+    color: #ddd;
+}
+.imgtext{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.border{
+  background-color: #111;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+section{
+    margin: 0;
+}
+
+
+@media only screen and (max-device-width: 900px) {
+.img1, .img2, .img3, .img4 { 
+    background-attachment: scroll;
+    min-height: 500px;
+}
+
+.imgtext {
+    top: 90%;
+}
+
+}
